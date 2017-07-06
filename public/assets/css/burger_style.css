@@ -1,0 +1,52 @@
+ul {
+
+	list-style-type: none;
+	padding: 0px;
+	
+}
+
+body {
+
+	background-color: #f4c842;
+	font-family: 'Raleway', sans-serif;
+}
+
+li.readyList {
+
+	padding: 10px;
+	background-color: #e8d75a;
+	margin: 5px;
+
+	
+
+}
+
+
+#burgerPic {
+
+	height: 45%;
+	margin-top: 2%;
+}
+
+h1#title {
+	
+	font-family: 'Pacifico', cursive;
+	color: red;
+	margin-top: 0px;
+}
+
+h2.columnTitle {
+
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+li.eatenList {
+
+	background-color: #e8c45a;
+	margin: 5px;
+	padding: 10px;
+	color: grey;
+
+}
+
