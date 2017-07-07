@@ -20,13 +20,6 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// Import routes and give the server access to them.
-// var routes = require("./routes/api-routes.js");
-
-// app.use("/", routes);
-// ---- code from old burgers assignment ^^^^^^
-////////////////
-
 // Requiring our models for syncing
 var db = require("./models");
 
@@ -40,7 +33,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 // Routes
 // =============================================================
 require("./routes/api-routes.js")(app);
-// require("./routes/html-routes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
